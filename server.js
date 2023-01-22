@@ -30,7 +30,7 @@ app.use(express.urlencoded({extended:false}))
 app.use(bodyParser.json( ))
 app.use(cors({
 origin : ["http://localhost:3000","http://evently.vercel.app"],
-//extra 
+//extra changes
 credentials : true,
 }));
 
